@@ -20,6 +20,9 @@ coverage/
 # Dependency directories
 node_modules/
 
+tmp/
+create-structure.js
+
 # Optional npm cache directory
 .npm
 
