@@ -1,5 +1,5 @@
 {
-  "name": "dataguard",
+  "name": "dataguards",
   "version": "1.0.0-alpha.1",
   "description": "Universal privacy compliance for developers - GDPR, CCPA, LGPD made simple",
   "main": "index.js",
