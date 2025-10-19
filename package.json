@@ -1,0 +1,92 @@
+{
+  "name": "dataguard",
+  "version": "1.0.0-alpha.1",
+  "description": "Universal privacy compliance for developers - GDPR, CCPA, LGPD made simple",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "dev": "node examples/vanilla-js/basic-usage.js",
+    "demo:encryption": "node examples/vanilla-js/encryption-demo.js",
+    "demo:consent": "node examples/vanilla-js/consent-demo.js",
+    "demo:mongodb": "node examples/databases/mongodb-demo.js",
+    "demo:mysql": "node examples/databases/mysql-demo.js",
+    "demo:express": "node examples/frameworks/express-demo.js",
+    "demo:express-client": "node examples/frameworks/express-client.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest test/unit/",
+    "test:integration": "jest test/integration/",
+    "build": "node scripts/build.js",
+    "lint": "eslint lib/ test/ examples/",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "privacy",
+    "compliance",
+    "gdpr",
+    "ccpa",
+    "lgpd",
+    "data-protection",
+    "automation",
+    "express",
+    "mongodb",
+    "mysql",
+    "security"
+  ],
+  "author": "Snartpace Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ntahondi/dataguard"
+  },
+  "bugs": {
+    "url": "https://github.com/Ntahondi/dataguard/issues"
+  },
+  "homepage": "https://github.com/Ntahondi/dataguard#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "axios": "^1.12.2",
+    "mongodb": "^4.17.2",
+    "mysql2": "^3.15.2",
+    "crypto-js": "^4.1.1",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  },
+
+
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "supertest": "^6.3.0",
+    "express": "^4.18.0",
+    "axios": "^1.0.0",
+    "mongodb": "^4.0.0",
+    "mysql2": "^3.0.0"
+  },
+    "peerDependencies": {
+    "express": "^4.17.0"
+  },
+
+  "optionalDependencies": {
+    "mongodb": "^4.0.0",
+    "mysql2": "^3.0.0"
+  },
+    "files": [
+    "lib/",
+    "types/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
+

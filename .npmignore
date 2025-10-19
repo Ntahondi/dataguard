@@ -1,0 +1,37 @@
+# Tests
+test/
+test-results/
+
+# Examples
+examples/
+
+# Documentation
+docs/
+
+# Config files (except package.json)
+jest.config.js
+.eslintrc.js
+.prettierrc
+
+# GitHub
+.github/
+
+# Git
+.gitignore
+
+# Development scripts
+scripts/
+
+# Configuration
+config/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
