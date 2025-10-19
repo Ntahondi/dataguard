@@ -21,6 +21,8 @@ coverage/
 node_modules/
 
 tmp/
+docs/
+
 create-structure.js
 
 # Optional npm cache directory

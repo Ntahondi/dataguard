@@ -1,1 +1,0 @@
-// Fastify example - TODO: Implement
