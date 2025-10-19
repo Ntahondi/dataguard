@@ -16,7 +16,7 @@
 
 ### Installation
 ```bash
-npm install dataguard
+npm install dataguards
 ```
 
 ### 30-Second Setup
